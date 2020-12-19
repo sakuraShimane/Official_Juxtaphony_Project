@@ -2,9 +2,9 @@
 
 [English](https://github.com/jin237/Official_Juxtaphony_Project/blob/main/README-en.md)｜[Français](https://github.com/jin237/Official_Juxtaphony_Project/blob/main/README-fc.md)
 
-<img src="https://github.com/jin237/Official_Juxtaphony_Project//blob/main/images/document_visual_theme.001.jpeg">
-<img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/images/document_visual_theme.002.jpeg">
-<img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/images/document_visual_theme.003.jpeg">
+<img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/readme_images/document_visual_theme.001.jpeg">
+<img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/readme_images/document_visual_theme.002.jpeg">
+<img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/readme_images/document_visual_theme.003.jpeg">
 
 ### Juxtaphony Teamによるプロジェクト概要と意義
 
@@ -15,7 +15,7 @@
 # 『スロートマイク』
 　スロートマイクとは、喉仏のあたりの骨伝導により音声を拾うマイクで、騒音や風が強いなどの雑音環境下でも音声を拾うことができます(下図)。その他のタイプのマイクでは、背景雑音が多いことから上記のような環境下ではうまく機能しません。ハイクオリティであればあるほど、「ささやき声」を拾うことができるため、ほとんど発声音量がなくとも、コミュニケーションが取れるようになります。
  
- <img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/images/ThroatMIC_Black.png" height=200px>
+ <img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/readme_images/ThroatMIC_Black.png" height=200px>
  
  Wikipediaより引用：： ["Throat Microphone"](https://en.wikipedia.org/wiki/Throat_microphone)
 >A throat microphone, also called a laryngophone, is a type of contact microphone that absorbs vibrations directly from the wearer's throat by way of single or dual sensors worn against the neck. The sensors, called transducers, can pick up speech even in extremely noisy or windy environments, such as on a motorcycle or in a nightclub. Other types of microphones do not function well under these conditions because of high levels of background noise. Advanced laryngophones are able to pick up whispers, and therefore perform well in environments where communicating with others at a distance in silence is required, such as during covert military or law enforcement operations. Throat microphones are also very useful when helmets or respiratory protection is required. Many full-face SCBA, CABA, SAR Respirator, Elastomeric Respirator, N95 Respirator PAPR, or re-breather masks do not have a provision for a microphone inside the mask. The throat microphone can be used safely, as it is positioned outside the mask's face seal and as such does not compromise the respiratory protection provided by the mask, nor does it violate mask approvals and certification.
@@ -49,7 +49,7 @@ Beaconを返すことによる特定領域内での複数端末での同時に�
 |テーブルトーク | 多数人数での会話システム。一定空間内でのランダム会話の実現。 |
 |クラスルーム | 1対多数の会話システム。 Beaconなどのホスト機器を介した音声会話による講義、授業などの実現。 |
 
-<img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/application/app_mode_visual/mode1_adhoc.jpeg" height=250px><img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/application/app_mode_visual/mode2_party.jpeg" height=250px><img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/application/app_mode_visual/mode3_tabletalk.jpeg" height=250px><img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/application/app_mode_visual/mode4_classroom.jpeg" height=250px>
+<img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/application/app_mode_visual/mode1_adhoc.jpeg" height=250px><img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/application/app_mode_visual/mode2_party.jpeg" height=250px><img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/application/app_mode_visual/mode3_tabletalk.jpeg" height=250px><img src="https://github.com/jin237/Official_Juxtaphony_Project/tree/main/application/app_mode_visual/mode4_classroom.jpeg" height=250px>
 
 #### アドホックモード
 アドホックモードは「1対1」で会話ができます。
@@ -125,7 +125,7 @@ Beaconを返すことによる特定領域内での複数端末での同時に�
 | モニター用ヘッドホン | ・SONY ステレオヘッドホン MDR-7506 <br>・Pioneer SE-M521 ヘッドホン |
 | 録音及び波形編集ソフト | ・Cubase Elements 11 <br>・Audacity |
 
-<img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/images/ThroatMIC_Black.png" height=150px>
+<img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/readme_images/ThroatMIC_Black.png" height=150px>
 図１　スロートマイクCGモデル
 <br>
 <img src="https://images-na.ssl-images-amazon.com/images/I/61Hzs8tXaQL._AC_SL1317_.jpg" height=150px>
@@ -168,27 +168,27 @@ https://www.coscom.co.jp/hiragana-katakana/kanatable-j.html
 
 # 数値データ内容
 ### 上記の音源に対する各ウィンドウの数値データ（.csv/.txt）
-データは、以下のようなもので出力
-https://github.com/jin237/juxtaphony_project/tree/main/data_set/preliminary_experiments/analysis_result/conde_demo_spectrum.txt
-https://github.com/jin237/juxtaphony_project/tree/main/data_set/preliminary_experiments/analysis_result/throat_demo_spectrum.txt  
 これらをグラフ化したものは以下で出力
 csvファイルまたはtxtファイルにてHamming Windowなどの数値データの公開
-<img src="https://github.com/jin237/juxtaphony_project/blob/main/data_set/preliminary_experiments/analysis_result/throat_demo_spectrum.png">
-
-  図３　スロートマイクのスペクトラムグラフ
-<br><br>
-<img src="https://github.com/jin237/juxtaphony_project/blob/main/data_set/preliminary_experiments/analysis_result/conde_demo_spectrum.png">
-
-  図４　コンデンサマイクのスペクトラムグラフ
-<br><br>
 <img src="https://github.com/jin237/juxtaphony_project/blob/main/data_set/preliminary_experiments/analysis_result/mix_wave.png">
 
-  図５　スロートマイク及びコンデンサマイクの波形の重ね合わせ
+図3　スロートマイク及びコンデンサマイクの波形の重ね合わせ
 <br><br>
-<img src="https://github.com/jin237/juxtaphony_project/blob/main/data_set/preliminary_experiments/analysis_result/mix_demo.png">
+<img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/readme_images/log_comparing.png">
 
-  図６　スロートマイク及びコンデンサマイクのスペクトラムグラフの重ね合わせ
+図4　スロートマイク及びコンデンサマイクのスペクトラムグラフ(log)の重ね合わせ
 <br><br>
+<img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/readme_images/linear_comparing.png">
+
+図5　スロートマイク及びコンデンサマイクのスペクトラムグラフ(linear)の重ね合わせ
+<br><br>
+<img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/readme_images/figure_comparing_condenser.png">
+
+図6　コンデンサマイクの有声部分と無声部分の重ね合わせ
+<br><br>
+<img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/readme_images/figure_comparing_throat.png">
+
+図6　スロートマイクの有声部分と無声部分の重ね合わせ
 
 ### 音声通話による50音における各行の人的相対音声評価
 - ４人を対象に飯野が話者として、Skypeで2名、LINEで2名以下のような実験を行った。
