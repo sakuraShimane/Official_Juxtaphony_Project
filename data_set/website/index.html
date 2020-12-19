@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script>document.getElementsByTagName("html")[0].className += " js";</script>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>Juxtaphony Project</title>
+</head>
+<body>
+<header class="cd-header flex flex-column flex-center">
+	<div class="text-component text-center">
+		<h1>The Data-set of Throat Microphone</h1>
+		<p><a class="cd-article-link" href="https://github.com/jin237/juxtaphony_throatmicrophone">GitHub</a>👈 </p>
+	</div>
+</header>
+
+<section class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg">
+	<ul class="cd-faq__categories">
+		<li><a class="cd-faq__category cd-faq__category-selected truncate" href="#basics">Throat Microphoneとは？</a></li>
+		<li><a class="cd-faq__category truncate" href="#mobile">音源公開データ</a></li>
+		<li><a class="cd-faq__category truncate" href="#account">数値公開データ</a></li>
+		<li><a class="cd-faq__category truncate" href="#payments">支援システム提案</a></li>
+		<li><a class="cd-faq__category truncate" href="#privacy">参考文献</a></li>
+		<li><a class="cd-faq__category truncate" href="#delivery">コンタクト</a></li>
+	</ul> <!-- cd-faq__categories -->
+
+	<div class="cd-faq__items">
+		<ul id="basics" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Throat Microphoneとは？</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Throat Microphoneとは</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>スロートマイクは、首に装着した単一または二重のセンサーによって、装着者の喉から直接振動を吸収するコンタクトマイクの一種です。トランスデューサーと呼ばれるセンサー（バイクやナイトクラブなどにも使用されている）によって、騒音や風の強い環境でも音声を拾うことができます。高度な喉頭マイクは、ささやき声を拾うことができるため、軍事や法執行機関の隠密作戦のように、遠く離れた場所にいる人と無音でコミュニケーションを取ることが必要な環境でも効果を発揮します。ヘルメットや呼吸器保護が必要な場合は、スロートマイクも非常に便利です。多くのフルフェイスSCBA、CABA、SAR呼吸器、エラストマー呼吸器、N95呼吸器PAPR、または再呼吸マスクには、マスク内部にマイクのための規定がありません。喉マイクはマスクのフェイスシールの外側にあるため、マスクが提供する呼吸保護を損なうことはなく、マスクの承認や認証に違反することもないため、安全に使用することができます。<br>2020年のCOVID-19の出現により、喉マイクの使用は、病院の救急室、小売店やレストランなどの他の分野にも拡大しています。これは、普遍的なフェイスマスクの使用と、社会的な距離を保つための透明なプラスチック製の物理的な仕切りにより、人々がコミュニケーションをとるために声を大きく上げなければならないため、対面でのコミュニケーションがより困難になっているからです。</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>研究概要</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>スロートマイク（咽喉マイク、骨伝導マイク）に関する音源及び評価数値データセット</p>
+						<p>2020年に世界的な大流行を引き起こしたSARS-CoV-2ウイルスにおいては、感染経路として発声により生じる微細な飛沫の口腔外への拡散が重要視されている。発声により口外へウイルスが出ていくことにより、飛沫感染が起こる。そのため、密集状態における発語を禁ずることにより、当該ウイルスの伝播経路を効率的に遮断しうる可能性がある。また、口外飛沫量は発声量を小さくすることにより減少することが報告されている。しかしながら、社会生活において発語を禁じることは現実的でない。そこで我々は、僅かな発声をも採音しうるスロートマイク(喉頭マイク)を活用することにより、感染性ウイルスの環境への拡散を極小化しうる可能性に着目した。 本研究では、スロートマイクの音質向上のため、高音質なコンデンサマイクとの同時録音を通じた対照データ生成の予備実験を行った。これら対照データを用いた両者の波形データ、周波数、ハミング窓の値などの定量的比較と被験者を用いた定性評価の結果、「首の運動に伴うノイズ」、「嚥下音」に加えて、「両唇音」や「無声摩擦音」が、スロートマイクを介した会話における障害となることを同定した。人的評価による50音評価では、両唇音や無声摩擦音により発音するものが聞き取りにくく、「ま行」や「は行」、「さ行」が主に正解率が25％と低かった。今回得られた知見を元にフィルタ学習用のデータセットを構築することにより、スロートマイクを用いた低音量でのさまざまな会話支援技術の実現が期待される。また、その学習データの活用と共に現在流行しているコロナウイルスの収束の１つの起因となると確信している。</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>公開データセット</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>本ページでは、スロートマイクとコンデンサマイクによる同時系列による音源データセットの作成を行いました。そのデータセットを用いることで特徴量及び深層学習に用いられるデータを公開します。</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>データセットの内容は？</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<h5>発話データセット</h5>
+						<p>スロートマイクと高音質マイク（本実験では、コンデンサマイク）での同時録音を行ったものに対する音源データセット</p>
+						<h5>数値データセット</h5>
+						<p>・上記の音源に対する各ウィンドウの数値データ（.csv）<br>・音声通話による50音における各行の人的相対音声評価
+						</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="mobile" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>音源公開データ</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>音源データセット</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>スロートマイク（咽喉マイク、骨伝導マイク）と高音質マイク（本実験では、コンデンサマイク）での同時録音を行ったものに対する音源データセット</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>フレーズ「これはデモ音源です」と発話したもの</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>６人の男性（20代）が「これはデモ音源です」と発話したもの<br>各音源データに対して、音源(TMとCM)及びHamming Windowを同時系列、各人によってデータ化</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>日本語50音表の発話</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>１人の男性（20代）がCosComに掲載されているひらがな50音表にある日本語発音を行う<br>https://www.coscom.co.jp/hiragana-katakana/kanatable-j.html</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="account" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>数値公開データ</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>音源に対する各ウィンドウの数値データ（.csv/.txt）</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>データは、以下のようなもので出力<br>https://github.com/jin237/juxtaphony_throatmicrophone/blob/master/demo_github/conde_demo_spectrum.txt<br>
+							https://github.com/jin237/juxtaphony_throatmicrophone/blob/master/demo_github/throat_demo_spectrum.txt<br>
+							これらをグラフ化したものは以下で出力 csvファイルまたはtxtファイルにてHamming Windowなどの数値データの公開
+						</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>音声通話による50音における各行の人的相対音声評価</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>４人を対象に飯野が話者として、Skypeで2名、LINEで2名以下のような実験を行った。<br>
+							通信通話アプリケーション（LINE、Skype）を用いて、定常的な雑音環境下に置いて、「あ」「い」「う」「え」「お」の発音を最初に教え、その後に、「さ」行、「ま」行、「か」行　など、の行をランダムに発音することで、評価を行う<br>
+							＜結果と考察＞<br>
+							「ま」行、「さ」行、「わ」「や」の認識率：２５％<br>
+							「は」「か」行は認識率：５０％<br>
+							唾を飲み込むことによる音はささやき声よりも大きい<br>
+							突発的ではあるが、特殊な音ではあるのでフィルターはかけやすいかもしれない。</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How do I change my account settings?</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>I forgot my password. How do I reset it?</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum at aspernatur iure facere ab a corporis mollitia molestiae quod omnis minima, est labore quidem nobis accusantium ad totam sunt doloremque laudantium impedit similique iste quasi cum! Libero fugit at praesentium vero. Maiores non consequuntur rerum, nemo a qui repellat quibusdam architecto voluptatem? Sequi, possimus, cupiditate autem soluta ipsa rerum officiis cum libero delectus explicabo facilis, odit ullam aperiam reprehenderit! Vero ad non harum veritatis tempore beatae possimus, ex odio quo.</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="payments" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>支援システム提案</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>基本構造</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>＜BLEonlyシステム＞<br>
+							Bluetoothのみを用いる端末間あるいは、Beaconを介すのみのシステム. イメージとしては、トランシーバーの上位互換だが、基本的には携帯端末の通信料がかからない。ローカル上で使える。専用端末化ができることをメリットとする。 Bluetoothによる近接感知機能を入れることによる。 Beaconを返すことによる特定領域内での複数端末での同時に行うことができる<br>
+							<br>
+							＜Skypeシステム＞<br>
+							BluetoothによるSkype IDの情報交換を行うことで、ホストとするユーザの会議室をオープンし、そこに他ユーザが入るシステム。 Skype使用によりサーバが不必要。Bluetoothの情報量の簡易化。</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>搭載機能</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>
+							アドホックモード(ad-hoc mode)：<br>
+							&ensp;1対1での会話
+							&ensp;近接を検知・bluetoothにて音声通信
+						</p>
+						<p>
+							パーティーモード（party mode）：<br>
+							&ensp;多対多での会話
+							&ensp;近接を検知・skype等にて多地点通話
+						</p>
+						<p>
+							卓上モード(tabletalk mode):<br>
+							&ensp;多対多での会話
+							&ensp;beaconにてactivate・skype等にて多地点通話
+						</p>
+						<p>
+							授業・講義モード(classroomモード):<br>
+							&ensp;1対多での会話
+							&ensp;beaconにてactivate・一人の話者を切り替える良い仕組みでの通話
+						</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>SILENT - talking （application）, 仕様図</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="privacy" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>参考文献</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>July 2018, 情報処理学会研究報告, Vol.2018-SLP-123 No.8, “深層学習に基づく特徴量変換を用いた咽喉マイクの音声認識”</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_action_common_download&item_id=190621&item_no=1&attribute_id=1&file_no=1</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>September 2019, INTERSPEECH 2019, "Knowledge Distillation for Throat Microphone Speech Recognition"</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>https://www.researchgate.net/publication/335829265_Knowledge_Distillation_for_Throat_Microphone_Speech_Recognition</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How can I access my account data?</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus magni vero deserunt enim et quia in aliquam, rem tempore voluptas illo nisi veritatis quas quod placeat ipsa! Error qui harum accusamus incidunt at libero ipsum, suscipit dolorum esse explicabo in eius voluptates quidem voluptatem inventore amet eaque deserunt veniam dignissimos excepturi? Dolore, quo amet nostrum autem nemo. Sit nam assumenda, corporis ea sunt distinctio nostrum doloribus alias, beatae nesciunt dolore saepe consequuntur minima eveniet porro dolor officiis maiores ab obcaecati officia enim aliquam. Itaque fuga molestiae hic accusantium atque corporis quia id sequi enim vero? Hic aperiam sint facilis aliquam quia, accusamus tenetur earum totam enim est, error. Iusto, reiciendis necessitatibus molestias. Voluptatibus eos explicabo repellat nesciunt nam vero minima.</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How can I control if other search engines can link to my profile?</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="delivery" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>コンタクト</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>研究代表者：飯野健広</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>北見工業大学工学部地域未来デザイン工学科機械知能生体工学コース４年 医療情報・医用画像研究室所属</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>北見工業大学</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>住所：〒090-8507 北海道北見市公園町165番地<br>Website：https://www.kitami-it.ac.jp/
+						</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Who takes care of shipping?</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How do returns or refunds work?</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quidem delectus rerum eligendi mollitia, repudiandae quae beatae. Et repellat quam atque corrupti iusto architecto impedit explicabo repudiandae qui similique aut iure ipsum quis inventore nulla error aliquid alias quia dolorem dolore, odio excepturi veniam odit veritatis. Quo iure magnam, et cum. Laudantium, eaque non? Tempore nihil corporis cumque dolor ipsum accusamus sapiente aliquid quis ea assumenda deserunt praesentium voluptatibus, accusantium a mollitia necessitatibus nostrum voluptatem numquam modi ab, sint rem.</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How do I use shipping profiles?</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How does your UK Next Day Delivery service work?</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span></span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>When will my order arrive?</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>When will my order ship?</span></a>
+				<div class="cd-faq__content">
+					<div class="text-component">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis provident officiis, reprehenderit numquam. Praesentium veritatis eos tenetur magni debitis inventore fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat distinctio velit.</p>
+					</div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+	</div> <!-- cd-faq__items -->
+
+	<a href="#0" class="cd-faq__close-panel text-replace">Close</a>
+
+	<div class="cd-faq__overlay" aria-hidden="true"></div>
+</section> <!-- cd-faq -->
+<script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+<script src="assets/js/main.js"></script> 
+</body>
+</html>
