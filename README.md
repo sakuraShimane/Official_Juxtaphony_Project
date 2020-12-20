@@ -1,6 +1,6 @@
 # Juxtaphony Project
 
-[English](https://github.com/jin237/Official_Juxtaphony_Project/blob/main/README-en.md)｜[Français](https://github.com/jin237/Official_Juxtaphony_Project/blob/main/README-fc.md)
+[English](https://github.com/jin237/Official_Juxtaphony_Project/blob/main/README-en.md)｜
 
 <img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/readme_images/document_visual_theme.001.jpeg">
 <img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/readme_images/document_visual_theme.002.jpeg">
