@@ -170,7 +170,7 @@ https://www.coscom.co.jp/hiragana-katakana/kanatable-j.html
 ### 上記の音源に対する各ウィンドウの数値データ（.csv/.txt）
 これらをグラフ化したものは以下で出力
 csvファイルまたはtxtファイルにてHamming Windowなどの数値データの公開
-<img src="https://github.com/jin237/juxtaphony_project/blob/main/data_set/preliminary_experiments/analysis_result/mix_wave.png">
+<img src="https://github.com/jin237/Official_Juxtaphony_Project/blob/main/readme_images/mix_wave.png">
 
 図3　スロートマイク及びコンデンサマイクの波形の重ね合わせ
 <br><br>
