@@ -229,4 +229,6 @@ Graduate School of Sciences and Engineering in Partial Fulfillment of the Requir
 ### COVID-19関連
   - [April 2020, New England Journal of Medicine 382(21), “Visualizing Speech-Generated Oral Fluid Droplets with Laser Light Scattering”](https://www.researchgate.net/publication/340674849_Visualizing_Speech-Generated_Oral_Fluid_Droplets_with_Laser_Light_Scattering)
 
+ - [M. Jayaweeraa, H. Pererab, B. Gunawardanaa, J. Manatungea, September 2020, Article 109819, Environmental Research, Volume188, “Transmission of COVID-19 virus by droplets and aerosols: A critical review on the unresolved dichotomy“](https://www.sciencedirect.com/science/article/pii/S0013935120307143?casa_token=b5PQH_NGGZ8AAAAA:pP61pfpIkvbPbu-wtrLW-VnezwrRM8v-joyZwegzwEc4kVsSo1bKlN8mWAZIj9b8EP6ChIKnHg)
+
 
